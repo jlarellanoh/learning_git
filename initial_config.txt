@@ -1,0 +1,10 @@
+# This file gathers the basic commands to initialize the git setup
+# Reference: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+git config --global user.name "jlarellanoh"
+git config --global user.email "juanlorenzo.arellano@gmail.com"
+git config --global core.editor vim                                        # changes the default editor to vim
+git config --global init.defaultBranch maini                               # default branch 'main' instead of 'master'
+git config --list --show-origin
+
+

@@ -1,0 +1,3 @@
+git diff              # diff between working tree and staging area
+git diff --staged     # diff between staging area and commited files
+git diff --cached     # synonym of the the above
