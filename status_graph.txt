@@ -1,0 +1,18 @@
+untracked     |-----------tracked-----------|
+untracked     unmodified   modified    staged
+
+git add
+   |------------------------------------->|
+   
+git commit
+		  |<----------------------|
+
+file is modified
+	          |----------->|
+
+git diff
+                  |<---------->|
+
+git diff --staged
+                  |<--------------------->|
+

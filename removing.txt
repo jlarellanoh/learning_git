@@ -1,0 +1,2 @@
+git rm <file>           # removes the file from the working tree and from the tracked files
+git rm --cached <file>  # only removes the file from the tracked files (stays in the wt) 
