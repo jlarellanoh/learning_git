@@ -15,5 +15,5 @@ git log -S pattern --name-status  # files that contain pattern
 git log -p -- commit.txt          # changes on file commit.txt
 git log --since=47.hours
 git log --since=2020-02-05
-git log --grep="seatch within the commit messages"
-git log -S "string in the diff"
+git log --grep="seatch this string within the commit messages"
+git log -S "search this string in the diff"
