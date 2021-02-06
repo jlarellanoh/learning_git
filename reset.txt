@@ -1,0 +1,3 @@
+git reset HEAD file.ext         # will unstage file.ext from stagging
+git restore --staged file.ext   # does the same as above. Easy to understand
+
