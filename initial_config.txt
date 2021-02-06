@@ -6,5 +6,6 @@ git config --global user.email "juanlorenzo.arellano@gmail.com"
 git config --global core.editor vim                                        # changes the default editor to vim
 git config --global init.defaultBranch maini                               # default branch 'main' instead of 'master'
 git config --list --show-origin
-
+git config --global pull.rebase "false"                                    # default behavior of git (fast-forward if possible, else create a merge
+commit)
 
