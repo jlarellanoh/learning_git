@@ -5,6 +5,7 @@ git log -stat
 git log --pretty=oneline
 git log --pretty=short
 git log --pretty=full
+git log --pretty=online --stat
 git log --pretty=format:"%h,%ar,%an,%s"
 git log --pretty=format:"%h,%ar,%an,%s" --graph
 git log --pretty=format:"%h,%ar,%an,%s" --graph --name-status
@@ -12,3 +13,7 @@ git log --pretty=format:"%h,%ar,%an,%s" --graph --name-status --since=1.hour
 git log --pretty=format:"%h,%ar,%an,%s" --graph --name-status --grep="test"
 git log -S pattern --name-status  # files that contain pattern
 git log -p -- commit.txt          # changes on file commit.txt
+git log --since=47.hours
+git log --since=2020-02-05
+git log --grep="seatch within the commit messages"
+git log -S "string in the diff"
