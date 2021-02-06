@@ -1,3 +1,2 @@
-git reset HEAD file.ext         # will unstage file.ext from stagging
-git restore --staged file.ext   # does the same as above. Easy to understand
-
+git restore --staged file.ext   # will unstage file.ext from stagging
+git restore file.ext            # will discard changes not staged and restore the file as it was in the last commit
