@@ -1,0 +1,4 @@
+# Repo has to exists. See git clone or git remote
+# This command will download the data but will not merge it into your working tree
+
+git fetch <repo_name>

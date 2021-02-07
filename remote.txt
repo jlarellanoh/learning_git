@@ -1,0 +1,8 @@
+git remote
+git remove -v
+git remote add <remote name> <url>   # remote name is any name you like (origin by default)
+git remote add myrepo git://xxxx
+git fetch myrepo                     # will download the changes on the local repo
+git remote shoe <remote name>
+git remote rename <old remote name> <new remote name>
+git remote remove <remote name>
