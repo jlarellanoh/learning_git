@@ -1,0 +1,2 @@
+git config --global alias.cm commit    # git commit alias as 'cm' >> git cm
+git config --global alias.st status    # git status alias as 'st' >> git st

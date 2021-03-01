@@ -1,0 +1,15 @@
+# Tags mark points in time of the commit history. When you create a tag, from that point on, all your commits will inherite this tag. 
+# There are 2 types of tags: annotated and lightweight. Annotated includes more information (author, date, checksum, etc). Lightweight doesn't, simply flag associated to specific commit
+# I see that tags are cummulative. If you have 2 or more tags active, they both are attached to your commits.
+
+git tag                     # to list all tags in alphabetical order
+git tag -l                  # same as above. -l or --list is implicit
+git tag -l "v1.8*"          # shows tags with the string given
+git tag -a "v1.0" -m "new version"    # creates an annotated tag with message 'new version'
+git show v1.0               # show information about the tag. Note: it seems that creating a tag automatically adds this tag to last commit!!. *** I FIND THIS WEIRD ***
+git tag testing_tag2        # creates a lightweight tag
+git tag -a "v1.2" <hash>    # will add the tag to the commit given (after the fact)
+git push <remote_name> <tag_name>   # push the commits with the tag given
+git push <remote_name> --tags       # push all the tags
+git tag -d <tag_name>       # will delete the tag (from your local repo)
+git push origin --delete <tag_name>   # will delete the tag from the remote
