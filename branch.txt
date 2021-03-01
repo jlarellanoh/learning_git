@@ -1,0 +1,11 @@
+git branch <branch_name>        # creates a branch but doesn't switch to it
+git checkout -b <branch_name>   # creates and switch the new branch
+git checkout <brach_name>       # switches to the branch (already existent)
+# branches are files that contains the commit where the its HEADs points to
+# these files are in .git/refs/heads directory
+# ls -l .git/refs/heads
+# total 8
+# -rw-rw-r-- 1 juan juan 41 Mär  1 19:42 branches
+# -rw-rw-r-- 1 juan juan 41 Mär  1 19:41 main
+# cat .git/refs/heads/main      # 2d3cb7de48ccaa3770b529ed398d4428bd43251a
+
