@@ -1,1 +1,6 @@
 git merge <brach_name>      # will merge <branch_name> into your current branch
+# git merge conflict_branch 
+# Updating 3fb73e1..f5020a4
+# Fast-forward
+#  .conflicts.txt | 2 +-
+#  1 file changed, 1 insertion(+), 1 deletion(-)

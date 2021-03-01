@@ -1,1 +1,2 @@
-git push <remote name> <branch name>
+git push <remote name> <branch_name>        # updates the remote 
+git push origin --delete <branch_name>      # deletes branch_name remotely
