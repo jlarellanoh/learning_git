@@ -1,0 +1,1 @@
+git merge <brach_name>      # will merge <branch_name> into your current branch

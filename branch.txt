@@ -9,3 +9,4 @@ git checkout <brach_name>       # switches to the branch (already existent)
 # -rw-rw-r-- 1 juan juan 41 Mär  1 19:41 main
 # cat .git/refs/heads/main      # 2d3cb7de48ccaa3770b529ed398d4428bd43251a
 
+git branch -d <branch-name>     # will delete that branch

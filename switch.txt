@@ -1,0 +1,2 @@
+git switch <branch_name>     # same as git checkout 
+git switch -c <branch_name>  # creates and switch to the new branch
